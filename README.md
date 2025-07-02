@@ -45,3 +45,11 @@ A local variable is created within a function and can only be used inside that f
 
 🕸️ Global Variable:
 A global variable is created in the main body of the code and can be used anywhere within the code. Such a variable has a global scope.
+
+# Data Types
+Data type specifies the type of value a variable requires to do various operations without causing an error. By default, Python provides the following built-in data types:
+- Numeric data: int, float, complex.
+- Text data: str.
+- Boolean data: True or False.
+- Sequenced data: list, tuple, range.
+- Mapped data: dictionary.
