@@ -24,3 +24,11 @@ print(color1[:6]) #prints -light,
 print(color1[:-1]) #prints -light,blu
 print(color[-3:-1]) #prints -lo
 print(color[-1:-3]) #there will be no output
+
+# Iterable vs Iterator
+nums = [1, 2, 3]        # iterable
+it = iter(nums)         # iterator
+
+print(next(it))  # 1
+print(next(it))  # 2
+print(next(it))  # 3
